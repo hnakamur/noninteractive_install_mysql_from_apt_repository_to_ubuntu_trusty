@@ -4,6 +4,7 @@
 mysql_apt_deb_file=mysql-apt-config_0.3.7-1ubuntu14.04_all.deb
 
 # Change this to your favorite password (do not contain single or double quotes)
+# The empty password cannot be used. I tried it but failed.
 mysql_root_password=my_password
 
 mysql_root_password_conf_path=./.mysql_root_password.cnf
